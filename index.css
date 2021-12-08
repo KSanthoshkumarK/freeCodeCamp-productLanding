@@ -1,0 +1,21 @@
+#header{
+    position: fixed;
+    display: flex;
+}
+#nav-bar{
+    float: left;
+    display: flex;
+}
+#feature{
+    display:grid;
+    grid-template-areas: 
+    "img detail"
+    "img detail"
+    "img detail";
+}
+@media (max-width:300px) {
+    .feature_img img{
+        height: 1px;
+        width: 1px;
+    }
+}
